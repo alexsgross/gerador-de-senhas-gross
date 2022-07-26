@@ -19,8 +19,16 @@ body{
 }
 
 .logo {
-    max-width: 600px;
-    margin-bottom: 24px;
+    max-width: 250px;
+    margin-bottom: 14px;
+    border-radius: 45px;
+    box-shadow: #000000 0px 0px 20px;
+}
+.gross{
+    max-width: 450px;
+    margin-bottom: 14px;
+    border-radius: 45px;
+
 }
 
 .container-input {
@@ -110,4 +118,27 @@ body{
 }
 hide{
     display: none;
+}
+footer{
+    background: rgb(119, 115, 115);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;    
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;        
+}
+footer:hover{
+    color: #3eb72b;
+    transition: all 0.5s ease-in-out;
+}
+a:link{    
+    color: #fff;
+    text-decoration: none;    
+}
+a:hover{
+    color: #dbe7e3;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
